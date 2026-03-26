@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Elite Footwear - Full Collection</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ELITE FOOTWEAR</div>
+    </nav>
+
+    <div class="container">
+        <h1 class="main-title">ELITE NEW ARRIVALS</h1>
+
+        <div class="feed-container">
+            <div class="product-card" onclick="openProduct('puma xl', '150.000 DT', 'https://i.ibb.co/7JdL2ZJV/image.jpg')">
+                <img src="https://i.ibb.co/7JdL2ZJV/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">puma xl</h3>
+                    <p class="price">150.000 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="openProduct('nike air force', '150.000 DT', 'https://i.ibb.co/6RS7pkzr/image.jpg')">
+                <img src="https://i.ibb.co/6RS7pkzr/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">air force1</h3>
+                    <p class="price">150.000 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="openProduct('NIKE dunk LOW', '150.000 DT', 'https://i.ibb.co/Cs8FM9d6/image.jpg')">
+                <img src="https://i.ibb.co/Cs8FM9d6/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">NIKE dunk LOW</h3>
+                    <p class="price">150.000 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div jordan1', '140.000 DT', 'https://i.ibb.co/yFp476gb/image.jpg')">
+                <img src="https://i.ibb.co/yFp476gb/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">JORDAN1</h3>
+                    <p class="price"140.000 DT</p>
+                    <button class="view-btn">VIEW 
+                                                           
+                                               campus00s  M', '149.999 DT', 'https://i.ibb.co/jZbN14s5/image.jpg')">
+                <img src="https://i.ibb.co/jZbN14s5/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name"campus 00s h3>
+                    <p class="price">150.000 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="openProduct('nike air force', '165.000 DT', 'https://i.ibb.co/tTX3xX89/image.jpg')">
+                <img src="https://i.ibb.co/tTX3xX89/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">nike air force1</h3>
+                    <p class="price">165 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="openProduct('nike air force1', '164.999 DT', 'https://i.ibb.co/XfyhcPhn/image.jpg')">
+                <img src="https://i.ibb.co/XfyhcPhn/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">nike air force1BLACK</h3>
+                    <p class="price">164.999 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="openProduct('NIKE SB DUNK PANDA', '129.999 DT', 'https://i.ibb.co/7x9Yw9JM/image.jpg')">
+                <img src="https://i.ibb.co/7x9Yw9JM/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">NIKE SB DUNK PANDA</h3>
+                    <p class="price">285.000 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="openProduct('adidas campus00s BLACK', '149.999 DT', 'https://i.ibb.co/wNzQCWQQ/image.jpg')">
+                <img src="https://i.ibb.co/wNzQCWQQ/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">NIKE AIR FORCE 1 ALL BLACK</h3>
+                    <p class="price">129.999 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="openProduct('adidas sambaBLACK', '149.999 DT', 'https://i.ibb.co/FkxfDNkK/image.jpg')">
+                <img src="https://i.ibb.co/FkxfDNkK/image.jpg" class="product-img">
+                <div class="product-details">
+                    <h3 class="product-name">ADIDAS SAMBA BLACK/WHITE</h3>
+                    <p class="price">260.000 DT</p>
+                    <button class="view-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImg" src="" class="modal-img-big">
+            <h2 id="modalName"></h2>
+            <p id="modalPrice" class="modal-price"></p>
+            <div class="options">
+                <label>Size:</label>
+                <select id="sizeSelect">
+                    <option>40</option><option>41</option><option>42</option><option>43</option><option>44</option>
+                </select>
+                <label style="margin-top:10px; display:block;">Color:</label>
+                <select id="colorSelect">
+                    <option>As Shown</option><option>Black</option><option>White</option>
+                </select>
+            </div>
+            <button class="wa-order-btn" onclick="sendWhatsApp()">
+                <i class="fab fa-whatsapp"></i> ORDER NOW
+            </button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>ELITE FOOTWEAR - TUNIS</p>
+        <p>Contact: +216 56 206 785</p>
+    </footer>
+
+</body>
+</html>
